@@ -68,3 +68,4 @@ gc.print_status("After Garbage Collection")
 
 [Link for GitHub project on which PythonDGC.py is based](https://github.com/marijanedjalkova/Garbage-Collector)
 ----------------------------------------------------------------------------
+# Java Garbage Collector

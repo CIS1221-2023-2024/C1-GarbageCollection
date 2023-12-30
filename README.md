@@ -34,7 +34,6 @@ custom_collector.collect()
 PythonDGC is a more detailed Python code, inspired and based on another garbage collection GitHub project (link for project below) than the previously mentioned PythonGC. It containts a class called GarbageCollector. This class provides basic functionality to allocate objects on a heap, process pointers, and perform garbage collection. The aim of this code is understanding and experimenting with garbage collection concept in a simple manner.
 
 ## Features
-### Initialisation
 - Manual Garbage Collection: Provides control over the removal of objects, allowing efficient memory management.
 - Reference count tracking: Tracks reference counts of objects for better understanding and management of their lifecycles.
 - Object allocation simulation: Simulates object allocation on the heap, helping the understanding memory allocation dynamics.

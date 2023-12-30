@@ -69,15 +69,15 @@ gc.print_status("After Garbage Collection")
 [Link for GitHub project on which PythonDGC.py is based](https://github.com/marijanedjalkova/Garbage-Collector)
 ----------------------------------------------------------------------------
 # Java Garbage Collector
-##Garbage Collector V1
-###Features
+## Garbage Collector V1
+### Features
 - Manually-executable automatic garbage collection
 - Use of JVM built-in features
 
-###Prerequisites
+### Prerequisites
 - Java 11+ JDK
 
-###Description
+### Description
 This Java program begins by creating a test object and linking it with a PhantomReference
 that is being queued into a ReferenceQueue. In order for the garbage collection to be possible 
 we set obj to null. The program pauses for three seconds giving the program some time to run.
@@ -86,15 +86,15 @@ System.gc() command. The program then enters a loop checking the ReferenceQueue 
 enqueued PhantomReference objects. If a reference is found, it implies that the object has been
 garbage collected, followed with a confirming message.
 ----------------------------------------------------------------------------
-##Garbage Collector V2
-###Features
+## Garbage Collector V2
+### Features
 - Complete manual & custom garbage collection
 - Object allocation and disposal
 
-###Prerequisites
+### Prerequisites
 - Java 11+ JDK
 
-###Description
+### Description
 Different to version one of the garbage collector, this version is a more detailed
 and fully manual version. This is unlike version one, where the program still used
 JVM's built in features. Instead, this program is more custom-built it defines a
@@ -105,9 +105,9 @@ this condition is only a test and can be switched for any given condition of my
 choice.
 ----------------------------------------------------------------------------
 
-#Comparison between V1 and V2
+# Comparison between V1 and V2
 
-##V1
+## V1
 -Version 1 demonstrates the use of Java's built-in mechanisms (PhantomReference and ReferenceQueue) 
 for handling actions after an object is garbage collected.
 
@@ -117,7 +117,7 @@ for handling actions after an object is garbage collected.
 -Version 1 aligns more closely with Java best practices, 
 utilizing built-in features for managing resources associated with objects.
 
-##V2
+## V2
 -Version 2 simulates a custom garbage collector with manual disposal of objects based on a condition.
 -Version 2 takes a manual approach to memory management, which is not typical in Java, 
 where automatic garbage collection is the norm.

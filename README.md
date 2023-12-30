@@ -78,7 +78,7 @@ gc.print_status("After Garbage Collection")
 - Java 11+ JDK
 
 ### Description
-This Java program begins by creating a test object and linking it with a PhantomReference
+#####This Java program begins by creating a test object and linking it with a PhantomReference
 that is being queued into a ReferenceQueue. In order for the garbage collection to be possible 
 we set obj to null. The program pauses for three seconds giving the program some time to run.
 After this, we give a suggestion to the system to execute garbage collection using the 

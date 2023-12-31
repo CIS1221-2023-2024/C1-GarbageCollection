@@ -120,6 +120,28 @@ collectGarbage method iterates through the list and disposes of objects based on
 a simulated condition, which in this case is a random mathematical number. However,
 this condition is only a test and can be switched for any given condition of my 
 choice.
+
+### Usage
+#### This is how you would operate V2
+```java
+public class Main {
+    public static void main(String[] args) {
+        CustomGarbageCollector garbageCollector = new CustomGarbageCollector();
+
+
+        Object object1 = new Object();
+        Object object2 = new Object();
+        Object object3 = new Object();
+        //allocate objects
+        garbageCollector.allocate(object1);
+        garbageCollector.allocate(object2);
+        garbageCollector.allocate(object3);
+
+        //perform garbage collection
+        garbageCollector.collectGarbage();
+    }
+}
+```
 ----------------------------------------------------------------------------
 
 # Comparison between V1 and V2

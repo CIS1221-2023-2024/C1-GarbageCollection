@@ -91,13 +91,13 @@ garbage collected, followed with a confirming message.
 ```java
 public class GarbageCollectionExample {
     public static void main(String[] args) {
-        // Create an object
+        //create an object
         MyClass myObject = new MyClass();
 
-        // Set the reference to null, making it eligible for garbage collection
+        //set the reference to null, making it possible to be garbage collected
         myObject = null;
 
-        // Suggest garbage collection (not recommended in practice)
+        //hint to a garbage collection
         System.gc();
     }
 }

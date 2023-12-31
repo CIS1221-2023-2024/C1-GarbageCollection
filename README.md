@@ -86,8 +86,21 @@ System.gc() command. The program then enters a loop checking the ReferenceQueue 
 enqueued PhantomReference objects. If a reference is found, it implies that the object has been
 garbage collected, followed with a confirming message.
 
+### Usage
+## This is the basic principle behind the way V1 is operated
 ```java
-test
+public class GarbageCollectionExample {
+    public static void main(String[] args) {
+        // Create an object
+        MyClass myObject = new MyClass();
+
+        // Set the reference to null, making it eligible for garbage collection
+        myObject = null;
+
+        // Suggest garbage collection (not recommended in practice)
+        System.gc();
+    }
+}
 ```
 ----------------------------------------------------------------------------
 ## Garbage Collector V2

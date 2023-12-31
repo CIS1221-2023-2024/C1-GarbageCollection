@@ -87,7 +87,7 @@ enqueued PhantomReference objects. If a reference is found, it implies that the 
 garbage collected, followed with a confirming message.
 
 ### Usage
-## This is the basic principle behind the way V1 is operated
+#### This is the basic principle behind the way V1 is operated
 ```java
 public class GarbageCollectionExample {
     public static void main(String[] args) {

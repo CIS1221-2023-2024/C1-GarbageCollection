@@ -1,5 +1,15 @@
 # C1-GarbageCollection
 ----------------------------------------------------------------------------
+### Table of Contents
+- [Python](#pythongc)
+    - [PythonGC](#pythongc)
+    - [PythonDGC](#pythondgc)
+- [Java](#java-garbage-collector)
+    - [Garbage Collector V1](#garbage-collector-v1)    
+    - [Garbage Collector V2](#garbage-collector-v2)    
+    - [V1 vs V2](#comparison-between-v1-and-v2)
+- [Video](#garbage-collection-project---automatic-python-vs-java-gc-embedded-video)
+- [Report](https://github.com/CIS1221-2023-2024/C1-GarbageCollection/blob/main/Report.md)
 # PythonGC
 PythonGC is a simple Python code which containts a class called CustomGarbageCollector. This class allows simple manual garbage collection. It can be used to manage when objects are to be deallocated by tracking their reference count.
 This code is meant to show the basic concept of how a garbage collector works.

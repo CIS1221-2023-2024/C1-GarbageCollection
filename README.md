@@ -175,8 +175,8 @@ utilizing built-in features for managing resources associated with objects.
 [![PYTHON VS JAVA](https://img.youtube.com/vi/LsaU4NHoUbQ/0.jpg)](https://www.youtube.com/watch?v=LsaU4NHoUbQ)
 
 ## Video Image Sources:
-https://www.educba.com/what-is-java-garbage-collector/
-https://towardsdatascience.com/memory-management-and-garbage-collection-in-python-c1cb51d1612c
-https://prepinsta.com/python/garbage-collection-in-python-programming-language/
+- https://www.educba.com/what-is-java-garbage-collector/
+- https://towardsdatascience.com/memory-management-and-garbage-collection-in-python-c1cb51d1612c
+- https://prepinsta.com/python/garbage-collection-in-python-programming-language/
 
 

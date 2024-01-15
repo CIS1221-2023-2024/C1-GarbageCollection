@@ -7,6 +7,11 @@ class GarbageCollector:
 
     #Function to simulate allocation of an object on the heap
     def allocate_object(self, value):
+        #Checking if heap is full
+        if None not in self.heap:
+            #If heap is full, run garbage collection
+            self.collect_garbage(list(range(len(self.heap))))
+            
         #Simulating object allocation on the heap
         for i in range(len(self.heap)):
             if self.heap[i] is None:
